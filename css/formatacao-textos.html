@@ -10,10 +10,11 @@
 
 			p {
 				font-size: 30px;
+				font-family: "Georgia";
 			}
 
 			.texto{
-				font-size: 16px;  /*px, %, em */
+				font-size: 20px;  /*px, %, em */
 			}
 			
 			.negrito{
@@ -22,6 +23,18 @@
 
 			.estilo{
 				font-style: italic;
+				/*font-style: oblique;*/
+			}
+
+			.texto-padrao{
+				font: bold 40px "Lucida Console", "Courier New", monospace;
+			}
+
+			.formatacao{
+				text-decoration: underline;
+				text-decoration: overline;
+				text-decoration: line-through;
+
 			}
 
 		</style>
@@ -31,9 +44,11 @@
 	<body>
 		
 		
-			<p class="texto">Curabitur vel mattis ante. Class aptent taciti sociosqu ad litora </p>
+			<p class="texto">Curabitur vel mattis ante. <span class= "formatacao">Class</span> aptent taciti sociosqu ad litora </p>
 			<p class="negrito">Conteúdo 1</p>
 			<p>Conteúdo 2</p>
+			<p class="estilo">Conteúdo 3</p>
+			<p class="texto-padrao">Conteúdo 4</p>
 
 		
 		
